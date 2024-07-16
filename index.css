@@ -186,3 +186,15 @@ footer nav{
     display: flex;
     gap: 10px;
 }
+@media screen and (max-width:576px){
+    header{
+        flex-wrap: wrap;
+    }
+
+    header nav{
+        order: 3;
+        width: 100%;
+        text-align: center;
+        margin: 1rem;
+    }
+}
