@@ -6,12 +6,20 @@ h1 {
 color: red;
 }
 
-.btn{
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red;
+}
+
+.btn {
     background: red;
     color:white;
     display: inline-block;
     border:2px solid rgb(197, 0, 0);
-  
+    cursor: pointer;
 }
 .btn-lg{
     font-size: 1.2rem;
@@ -48,6 +56,14 @@ header nav a{
     padding: .5rem;
     border-radius: .2rem;
     width: 10rem;
+}
+#search{
+    background-image: url("./assests/search.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 15%;
+    width: 8rem;
 }
 
 .user-panel-control i{
@@ -114,6 +130,10 @@ margin-right: .5rem;
 
 }
 /* suggestion */
+.suggestion-panel{
+    margin-bottom: 2rem;
+}
+
 .movie-header{
     display: flex;
     justify-content: space-between;
@@ -142,4 +162,27 @@ margin-right: .5rem;
 .movie-card h3 {
     margin-top: 0px;
 
+}
+/* footer */
+footer{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+footer nav{
+    display: flex;
+    gap:1rem;
+}
+.social-media p, .app-store p{
+    margin-top: 0px;
+
+}
+.social-media img, .app-store img{
+    height: 30px; 
+    border-radius: .3rem;
+}
+
+.social-media div, .app-store div {
+    display: flex;
+    gap: 10px;
 }
